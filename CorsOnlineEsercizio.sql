@@ -14,6 +14,12 @@ nome varchar (9) NOT NULL,
 sede varchar (12) NOT NULL,
 numeroDipendenti int (6) NOT NULL
 );
+create table societaDue (
+idsocieta int (11) PRIMARY KEY AUTO_INCREMENT,
+nome varchar (9) NOT NULL,
+sede varchar (12) NOT NULL,
+numeroDipendenti int (6) NOT NULL
+);
 create table corso (
 idcorso int (11) PRIMARY KEY AUTO_INCREMENT,
 nome varchar (18) NOT NULL,
