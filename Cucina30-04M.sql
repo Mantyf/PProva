@@ -31,7 +31,7 @@ CREATE TABLE `amministratori` (
   `cognome` varchar(50) DEFAULT NULL,
   `dataNascita` date DEFAULT NULL,
   `email` varchar(50) DEFAULT NULL,
-  `telefono` varchar(50) DEFAULT NULL,
+  `telefono` varchar(50),
   `img` longblob,
   PRIMARY KEY (`id_amministratore`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
